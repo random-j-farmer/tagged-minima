@@ -1,3 +1,9 @@
+# tagged-minima
+
+a clone of minima with rudimentary tag support.
+
+use this via remote_theme and define an empty tags.md that references the tags layout.
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.

@@ -232,8 +232,6 @@
   @include relative-font-size(1.5);
 }
 
-
-
 /**
  * Posts
  */
@@ -339,4 +337,31 @@
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
+}
+
+
+// for tag cloud / archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 16px;
+  li {
+      display: inline-block;
+      margin: 0 12px 12px 0; 
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid $border-color-01;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  float: right;
+  text-align: right;
 }
