@@ -18,6 +18,10 @@ minima:
   social_links:
     twitter: jekyllrb
     github:  jekyll
+    # numerical discord id - enable developer mode (appearance), Copy ID
+    # discord:
+    #   name: jeyll#123
+    #   id: NUMERICALID  # enable developer mode in discord > settings > appearance, right click user, copy ID
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll

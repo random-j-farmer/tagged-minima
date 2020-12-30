@@ -1,8 +1,15 @@
 # tagged-minima
 
-a clone of minima with rudimentary tag support.
+a clone of minima with the following changes:
 
-use this via remote_theme and define an empty tags.md that references the tags layout.
+* tag support: tags on posts will be displayed (with an include so it can be customized)
+  and link to a tags page, which again can be customized
+* pages can opt out of being in the header by setting no_header to true
+* user can link to their discord account by providing discord.id and discord.name in minima.social
+* custom_header include allows adding links to the header
+
+use this via remote_theme and define an empty tags.md that references the tags layout, maybe with
+no_header set to true
 
 # minima
 
